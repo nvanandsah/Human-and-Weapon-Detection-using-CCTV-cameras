@@ -27,6 +27,6 @@ print(len(glob.glob(dir_path)))
 start = time.time()
 
 for i,filename in enumerate(glob.glob(dir_path)):
-    detect_image(model, filename, "Dataset/Testing_out/"+str(i+1)+".jpg", input_size=input_size, show=True, CLASSES=TRAIN_CLASSES, rectangle_colors=(255,0,0))
-    print(i)
+    detect_image(model, filename, "Dataset/Testing_out/"+str(i+1)+".jpg", input_size=input_size, show=False, CLASSES=TRAIN_CLASSES, rectangle_colors=(255,0,0))
+    # print(i)
 print("Time taken to run : "+str(time.time()-start))

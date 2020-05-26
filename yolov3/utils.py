@@ -5,7 +5,26 @@ import colorsys
 import numpy as np
 import tensorflow as tf
 from yolov3.configs import *
-
+import firebase_admin
+from firebase_admin import credentials
+from firebase_admin import db
+from datetime import datetime
+from google.cloud import storage
+from firebase import firebase
+import os
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="C:/Users/navne/OneDrive/Documents/Codes/EDGEAI/TF_Yolo_Gun_Detection/fir-5f27b-firebase-adminsdk-470w3-16931e232d.json"
+firebase = firebase.FirebaseApplication('https://fir-5f27b.firebaseio.com/')
+client = storage.Client()
+bucket = client.get_bucket('fir-5f27b.appspot.com')
+# posting to firebase storage
+imageBlob = bucket.blob("/")
+# Fetch the service account key JSON file contents
+cred = credentials.Certificate('C:/Users/navne/OneDrive/Documents/Codes/EDGEAI/TF_Yolo_Gun_Detection/fir-5f27b-firebase-adminsdk-470w3-16931e232d.json')
+# Initialize the app with a service account, granting admin privileges
+firebase_admin.initialize_app(cred, {
+    'databaseURL': 'https://fir-5f27b.firebaseio.com/'
+})
+Box_Flag = False
 def load_yolo_weights(model, weights_file):
     # load Darknet original weights to Keras model
     with open(weights_file, 'rb') as wf:
@@ -95,7 +114,7 @@ def draw_bbox(image, bboxes, CLASSES=YOLO_COCO_CLASSES, show_label=True, show_co
     random.seed(0)
     random.shuffle(colors)
     random.seed(None)
-
+    Box_Flag = False
     for i, bbox in enumerate(bboxes):
         coor = np.array(bbox[:4], dtype=np.int32)
         score = bbox[4]
@@ -124,8 +143,11 @@ def draw_bbox(image, bboxes, CLASSES=YOLO_COCO_CLASSES, show_label=True, show_co
             # put text above rectangle
             cv2.putText(image, label, (x1, y1-4), cv2.FONT_HERSHEY_COMPLEX_SMALL,
                         fontScale, Text_colors, bbox_thick, lineType=cv2.LINE_AA)
-
-    return image
+    print(str(len(bboxes)) +" "+ str(len(bboxes)!=0))
+    if(len(bboxes)!=0):
+        Box_Flag = True    
+    print(Box_Flag)
+    return Box_Flag,image
 
 
 def bboxes_iou(boxes1, boxes2):
@@ -243,9 +265,21 @@ def detect_image(YoloV3, image_path, output_path, input_size=416, show=False, CL
     bboxes = postprocess_boxes(pred_bbox, original_image, input_size, score_threshold)
     bboxes = nms(bboxes, iou_threshold, method='nms')
 
-    image = draw_bbox(original_image, bboxes, CLASSES=CLASSES, rectangle_colors=rectangle_colors)
+    Box_Flag,image = draw_bbox(original_image, bboxes, CLASSES=CLASSES, rectangle_colors=rectangle_colors)
 
     if output_path != '': cv2.imwrite(output_path, image)
+    print(Box_Flag)
+    if(Box_Flag):
+        # imagePath = "C:/Users/navne/OneDrive/Documents/Codes/EDGEAI/TF_Yolo_Gun_Detection/Dataset/Testing_out/1.jpg"
+        millis = int(round(time.time() * 1000))
+        imageBlob = bucket.blob(str(millis)+".jpg")
+        imageBlob.upload_from_filename(output_path)
+        ref = db.reference('/')
+        ref.push({
+            'TimeStamp': str(datetime.now()),
+            'Location': "Store1",
+            'ImageURL':"gs://fir-5f27b.appspot.com/"+str(millis)+".jpg"
+        })
     if show:
         cv2.imshow("predicted image", image)
         if cv2.waitKey(25) & 0xFF == ord("q"):
