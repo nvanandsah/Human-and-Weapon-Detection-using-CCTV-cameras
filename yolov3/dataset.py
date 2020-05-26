@@ -1,13 +1,4 @@
-#================================================================
-#
-#   File name   : dataset.py
-#   Author      : PyLessons
-#   Created date: 2020-04-20
-#   Website     : https://pylessons.com/
-#   GitHub      : https://github.com/pythonlessons/TensorFlow-2.x-YOLOv3
-#   Description : functions used to prepare dataset for custom training
-#
-#================================================================
+
 import os
 import cv2
 import random
