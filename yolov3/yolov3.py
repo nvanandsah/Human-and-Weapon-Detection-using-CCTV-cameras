@@ -1,13 +1,3 @@
-#================================================================
-#
-#   File name   : yolov3.py
-#   Author      : PyLessons
-#   Created date: 2020-04-20
-#   Website     : https://pylessons.com/
-#   GitHub      : https://github.com/pythonlessons/TensorFlow-2.x-YOLOv3
-#   Description : main yolov3 functions
-#
-#================================================================
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.layers import Conv2D, Input, LeakyReLU, ZeroPadding2D, BatchNormalization
@@ -20,10 +10,6 @@ ANCHORS         = (np.array(YOLO_ANCHORS).T/STRIDES).T
 IOU_LOSS_THRESH = YOLO_IOU_LOSS_THRESH
 
 class BatchNormalization(BatchNormalization):
-    # "Frozen state" and "inference mode" are two separate concepts.
-    # `layer.trainable = False` is to freeze the layer, so the layer will use
-    # stored moving `var` and `mean` in the "inference mode", and both `gama`
-    # and `beta` will not be updated !
     def call(self, x, training=False):
         if not training:
             training = tf.constant(False)
