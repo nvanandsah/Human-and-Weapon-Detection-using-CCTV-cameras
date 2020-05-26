@@ -1,0 +1,300 @@
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\1.jpeg 76,45,146,87,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\2.jpeg 109,32,130,74,0 217,101,227,129,0 96,59,106,82,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\3.jpeg 189,34,282,94,0 265,45,323,83,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\4.jpeg 107,51,294,105,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\5.jpeg 232,29,294,71,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\6.jpeg 88,48,136,80,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\7.jpeg 118,30,178,121,0 182,49,239,122,0 26,35,84,127,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\8.jpeg 113,60,263,126,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\9.jpeg 30,22,104,137,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\10.jpeg 115,130,163,161,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\11.jpeg 73,53,156,108,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\12.jpeg 70,10,187,186,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\13.jpeg 50,33,164,95,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\14.jpeg 128,58,181,110,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\15.jpeg 123,81,165,105,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\16.jpeg 79,31,127,173,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\17.jpeg 122,17,260,77,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\18.jpeg 100,123,185,184,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\19.jpeg 15,15,54,55,0 117,226,143,259,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\20.jpeg 77,62,127,171,0 158,72,199,179,0 217,65,242,176,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\21.jpeg 6,64,157,147,0 54,7,192,83,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\22.jpeg 125,46,180,77,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\23.jpeg 34,28,95,79,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\24.jpeg 12,16,64,58,0 118,220,142,258,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\25.jpeg 143,96,221,140,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\26.jpeg 33,14,125,170,0 136,7,245,168,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\27.jpeg 150,53,212,94,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\28.jpeg 73,66,280,145,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\29.jpeg 47,63,99,109,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\30.jpeg 56,50,190,121,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\31.jpeg 207,88,293,133,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\32.jpeg 25,127,179,230,0 24,24,177,116,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\33.jpeg 98,49,237,88,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\34.jpeg 157,63,249,107,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\35.jpeg 139,45,251,101,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\36.jpeg 222,95,286,130,0 164,78,195,105,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\37.jpeg 50,9,99,69,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\38.jpeg 125,21,189,142,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\39.jpeg 56,43,193,78,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\40.jpeg 175,22,237,60,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\41.jpeg 17,68,100,194,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\42.jpeg 36,27,85,62,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\43.jpeg 221,50,287,80,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\44.jpeg 8,61,161,114,0 8,11,159,50,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\45.jpeg 55,52,121,85,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\46.jpeg 52,100,140,146,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\47.jpeg 111,40,136,67,0 194,101,227,135,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\48.jpeg 150,105,190,161,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\49.jpeg 59,43,226,94,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\50.jpeg 102,27,179,60,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\51.jpeg 64,25,241,84,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\52.jpeg 51,37,115,65,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\53.jpeg 104,34,225,125,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\54.jpeg 111,114,161,141,0 7,1,31,46,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\55.jpeg 177,51,229,76,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\56.jpeg 26,94,129,177,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\57.jpeg 99,52,175,155,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\58.jpeg 109,60,193,92,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\59.jpeg 64,71,268,181,0 9,5,208,87,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\60.jpeg 173,21,234,64,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\61.jpeg 165,49,197,76,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\62.jpeg 45,98,256,162,0 44,11,256,83,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\63.jpeg 205,12,223,25,0 188,15,209,27,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\64.jpeg 125,122,153,185,0 23,113,51,182,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\65.jpeg 126,15,259,75,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\66.jpeg 110,73,207,134,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\67.jpeg 7,53,35,77,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\68.jpeg 78,82,138,163,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\69.jpeg 45,45,94,146,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\70.jpeg 177,43,229,70,0 37,5,52,41,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\71.jpeg 71,11,115,101,0 171,78,223,110,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\72.jpeg 69,49,105,83,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\73.jpeg 217,66,258,121,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\74.jpeg 123,102,208,142,0 131,59,228,80,0 215,80,299,103,0 215,113,300,138,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\75.jpeg 24,53,80,137,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\76.jpeg 75,42,174,106,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\77.jpeg 56,102,92,128,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\78.jpeg 186,73,250,127,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\79.jpeg 65,57,130,105,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\80.jpeg 148,85,209,122,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\81.jpeg 95,9,131,48,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\82.jpeg 67,59,282,123,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\83.jpeg 9,7,227,165,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\84.jpeg 32,88,125,118,0 6,24,71,60,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\85.jpeg 225,116,285,164,0 155,120,217,167,0 85,117,147,167,0 15,119,78,165,0 17,65,74,112,0 84,64,143,108,0 156,63,213,110,0 229,55,288,104,0 225,0,283,55,0 79,9,137,54,0 9,6,67,60,0 137,4,213,60,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\86.jpeg 90,35,242,93,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\87.jpeg 98,65,264,112,0 125,18,311,67,0 17,7,109,114,0 310,5,397,119,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\88.jpeg 36,84,111,145,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\89.jpeg 229,13,273,111,0 59,7,103,110,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\90.jpeg 186,30,253,98,0 17,55,59,98,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\91.jpeg 84,5,163,165,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\92.jpeg 116,68,195,139,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\93.jpeg 74,36,96,56,0 213,56,231,83,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\94.jpeg 33,85,80,111,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\95.jpeg 134,6,314,101,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\96.jpeg 77,65,253,143,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\97.jpeg 44,62,266,135,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\98.jpeg 140,64,178,112,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\99.jpeg 204,150,265,182,0 147,152,200,181,0 89,110,136,149,0 139,112,197,140,0 199,110,271,146,0 44,71,95,101,0 56,145,101,178,0 168,68,215,97,0 185,29,243,62,0 60,38,103,62,0 1,3,46,36,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\100.jpeg 9,23,225,107,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\101.jpeg 153,25,198,70,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\102.jpeg 119,87,146,141,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\103.jpeg 7,69,163,133,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\104.jpeg 37,64,84,96,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\105.jpeg 143,16,234,166,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\106.jpeg 35,32,117,67,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\107.jpeg 89,45,202,105,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\108.jpeg 16,9,68,56,0 127,26,149,58,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\109.jpeg 6,7,211,132,0 154,136,218,222,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\110.jpeg 129,40,199,89,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\111.jpeg 9,58,58,140,0 77,65,127,134,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\112.jpeg 155,6,209,44,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\113.jpeg 56,51,109,84,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\114.jpeg 104,135,178,160,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\115.jpeg 16,65,148,124,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\116.jpeg 133,67,194,176,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\117.jpeg 37,59,251,131,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\118.jpeg 114,73,166,110,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\119.jpeg 6,78,273,154,0 72,12,300,79,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\120.jpeg 16,50,80,108,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\121.jpeg 59,18,111,151,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\122.jpeg 21,38,50,82,0 101,35,135,63,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\123.jpeg 26,59,77,93,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\124.jpeg 56,80,237,168,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\125.jpeg 142,57,192,89,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\126.jpeg 75,6,129,107,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\127.jpeg 97,111,177,209,0 6,113,76,212,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\128.jpeg 120,101,180,150,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\129.jpeg 107,18,319,74,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\130.jpeg 45,141,124,207,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\131.jpeg 102,35,240,106,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\132.jpeg 49,69,126,151,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\133.jpeg 82,68,266,134,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\134.jpeg 6,63,92,96,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\135.jpeg 58,9,210,117,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\136.jpeg 58,73,227,141,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\137.jpeg 187,70,275,107,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\138.jpeg 23,45,88,91,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\139.jpeg 107,25,273,94,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\140.jpeg 71,22,130,78,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\141.jpeg 78,71,195,98,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\142.jpeg 182,47,218,71,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\143.jpeg 164,32,226,62,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\144.jpeg 26,43,192,90,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\145.jpeg 182,66,257,101,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\146.jpeg 118,101,169,147,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\147.jpeg 101,58,250,94,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\148.jpeg 53,53,205,140,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\149.jpeg 34,22,188,142,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\150.jpeg 129,53,346,96,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\151.jpeg 75,74,162,103,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\152.jpeg 68,55,138,132,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\153.jpeg 32,72,67,96,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\154.jpeg 95,49,186,85,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\155.jpeg 17,55,168,119,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\156.jpeg 103,61,161,125,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\157.jpeg 100,33,177,124,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\158.jpeg 70,32,212,67,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\159.jpeg 69,64,137,88,0 169,64,238,89,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\160.jpeg 45,61,99,92,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\161.jpeg 84,110,259,149,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\162.jpeg 149,55,296,94,0 72,33,206,68,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\163.jpeg 170,16,264,79,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\164.jpeg 76,39,162,164,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\165.jpeg 54,31,101,69,0 133,42,171,68,0 71,142,138,177,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\166.jpeg 11,101,200,145,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\167.jpeg 82,115,241,180,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\168.jpeg 110,77,174,114,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\169.jpeg 119,83,247,133,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\170.jpeg 93,44,266,104,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\171.jpeg 117,53,246,102,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\172.jpeg 139,19,239,96,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\173.jpeg 12,18,177,114,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\174.jpeg 186,45,280,85,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\175.jpeg 81,60,191,103,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\176.jpeg 134,58,228,110,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\177.jpeg 29,60,194,109,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\178.jpeg 113,47,251,94,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\179.jpeg 180,84,247,127,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\180.jpeg 22,102,288,162,0 41,6,271,40,0 30,54,275,92,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\181.jpeg 99,60,220,103,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\182.jpeg 94,35,179,104,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\183.jpeg 93,31,178,107,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\184.jpeg 127,84,196,117,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\185.jpeg 106,87,190,204,0 44,89,73,212,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\186.jpeg 74,33,175,88,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\187.jpeg 111,60,164,98,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\188.jpeg 114,34,157,61,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\189.jpeg 117,98,168,156,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\190.jpeg 134,16,199,162,0 75,24,118,142,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\191.jpeg 182,92,233,130,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\192.jpeg 102,81,137,137,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\193.jpeg 38,78,179,120,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\194.jpeg 231,13,277,45,0 50,5,92,44,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\195.jpeg 106,60,166,93,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\196.jpeg 161,35,190,84,0 41,21,67,61,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\197.jpeg 73,54,151,98,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\198.jpeg 102,45,215,136,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\199.jpeg 167,32,218,93,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\200.jpeg 115,35,152,55,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\201.jpeg 81,69,143,106,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\202.jpeg 25,108,88,169,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\203.jpeg 123,45,158,75,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\204.jpeg 124,54,165,174,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\205.jpeg 52,24,245,139,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\206.jpeg 101,93,134,114,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\207.jpeg 99,112,177,217,0 4,113,80,226,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\208.jpeg 46,35,107,84,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\209.jpeg 75,44,131,141,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\210.jpeg 148,25,252,101,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\211.jpeg 118,27,168,79,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\212.jpeg 149,60,194,103,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\213.jpeg 128,74,183,161,0 42,71,105,153,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\214.jpeg 159,35,194,53,0 193,40,230,63,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\215.jpeg 114,24,214,95,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\216.jpeg 26,69,60,146,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\217.jpeg 95,35,182,84,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\218.jpeg 47,93,143,166,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\219.jpeg 131,44,174,81,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\220.jpeg 74,75,114,124,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\221.jpeg 92,71,141,200,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\222.jpeg 10,11,152,120,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\223.jpeg 185,40,218,65,0 28,89,55,108,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\224.jpeg 138,65,173,88,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\225.jpeg 156,40,225,113,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\226.jpeg 62,95,148,178,0 118,26,154,122,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\227.jpeg 179,98,242,127,0 242,59,288,91,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\228.jpeg 206,95,264,131,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\229.jpeg 87,70,156,180,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\230.jpeg 16,39,193,100,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\231.jpeg 158,71,230,95,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\232.jpeg 79,35,107,57,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\233.jpeg 164,8,256,59,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\234.jpeg 80,30,128,158,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\235.jpeg 115,48,190,91,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\236.jpeg 64,43,202,108,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\237.jpeg 221,4,316,56,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\238.jpeg 70,57,194,113,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\239.jpeg 97,68,142,96,0 234,34,272,56,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\240.jpeg 65,154,147,183,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\241.jpeg 38,74,85,165,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\242.jpeg 97,72,266,139,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\243.jpeg 25,59,116,107,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\244.jpeg 94,60,178,128,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\245.jpeg 156,57,202,120,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\246.jpeg 92,108,149,161,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\247.jpeg 32,61,125,172,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\248.jpeg 103,48,227,86,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\249.jpeg 103,27,166,143,0 83,210,114,234,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\250.jpeg 231,26,296,74,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\251.jpeg 27,15,93,53,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\252.jpeg 137,18,262,78,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\253.jpeg 111,139,149,179,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\254.jpeg 136,49,252,117,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\255.jpeg 120,104,178,163,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\256.jpeg 42,85,139,134,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\257.jpeg 113,33,222,80,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\258.jpeg 161,62,198,107,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\259.jpeg 104,74,158,116,0 20,51,92,114,0 178,54,242,119,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\260.jpeg 25,37,76,74,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\261.jpeg 94,65,139,88,0 238,29,271,63,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\262.jpeg 137,68,179,88,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\263.jpeg 101,35,233,115,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\264.jpeg 141,41,249,103,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\265.jpeg 149,32,221,73,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\266.jpeg 139,50,212,154,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\267.jpeg 206,52,269,96,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\268.jpeg 62,124,140,167,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\269.jpeg 23,18,100,58,0 250,32,297,62,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\270.jpeg 49,35,105,71,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\271.jpeg 94,41,138,78,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\272.jpeg 144,72,185,143,0 79,96,123,147,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\273.jpeg 153,46,223,91,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\274.jpeg 105,21,237,129,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\275.jpeg 181,92,244,134,0 239,62,286,87,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\276.jpeg 85,22,116,100,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\277.jpeg 192,34,271,83,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\278.jpeg 37,17,142,176,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\279.jpeg 92,80,187,144,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\280.jpeg 104,24,240,95,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\281.jpeg 134,79,174,123,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\282.jpeg 207,87,297,136,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\283.jpeg 173,67,240,124,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\284.jpeg 120,77,166,150,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\285.jpeg 6,17,241,166,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\286.jpeg 16,6,223,138,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\287.jpeg 181,113,210,147,0 56,124,83,158,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\288.jpeg 232,8,308,58,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\289.jpeg 33,58,118,113,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\290.jpeg 178,41,238,74,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\291.jpeg 153,50,197,117,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\292.jpeg 30,20,169,108,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\293.jpeg 110,131,164,163,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\294.jpeg 164,30,223,91,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\295.jpeg 31,72,115,140,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\296.jpeg 153,68,220,154,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\297.jpeg 18,56,136,97,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\298.jpeg 117,19,342,107,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\299.jpeg 109,109,177,226,0 2,107,90,220,0
+C:\Users\navne\OneDrive\Documents\Codes\EDGEAI\TF_Yolo_Gun_Detection\Dataset\Train\Images\300.jpeg 166,36,227,119,0

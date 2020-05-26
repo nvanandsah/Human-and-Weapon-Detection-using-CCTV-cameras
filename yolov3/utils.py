@@ -305,7 +305,7 @@ def detect_video(YoloV3, video_path, output_path, input_size=416, show=False, CL
         if output_path != '': out.write(image)
         if show:
             cv2.imshow('output', image)
-            if cv2.waitKey(25) & 0xFF == ord("q"):
+            if cv2.waitKey() & 0xFF == ord("q"):
                 cv2.destroyAllWindows()
                 break
 
