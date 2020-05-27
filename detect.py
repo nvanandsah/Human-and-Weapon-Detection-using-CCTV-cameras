@@ -17,16 +17,18 @@ IMAGE_WIDTH = 416
 CHANNELS = 3
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
-input_size=YOLO_INPUT_SIZE
+io=YOLO_INPUT_SIZE
 
-model = Create_Yolov3(input_size=input_size, CLASSES=TRAIN_CLASSES)
-model.load_weights("./checkpoints/yolov3_custom")
+yolo_model = Create_Yolov3(input_size=io, CLASSES=TRAIN_CLASSES)
+yolo_model.load_weights("./checkpoints/yolov3_custom")
 
 dir_path = "Dataset\\Testing\\*"
-print(len(glob.glob(dir_path)))
-start = time.time()
 
-for i,filename in enumerate(glob.glob(dir_path)):
-    detect_image(model, filename, "Dataset/Testing_out/"+str(i+1)+".jpg", input_size=input_size, show=False, CLASSES=TRAIN_CLASSES, rectangle_colors=(255,0,0))
-    # print(i)
-print("Time taken to run : "+str(time.time()-start))
+st_time = time.time()
+
+for file_no,file_img in enumerate(glob.glob(dir_path)):
+    detect_image(yolo_model, file_img, "Dataset/Testing_out/"+str(file_no+1)+".jpg", input_size=io, show=True, CLASSES=TRAIN_CLASSES, rectangle_colors=(255,0,0))
+	
+finish_time=time.time()
+
+print("Total Time: "+str(finish_time-st_time))
