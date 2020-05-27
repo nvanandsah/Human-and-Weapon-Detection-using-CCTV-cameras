@@ -4,10 +4,67 @@ from tensorflow.keras.layers import Conv2D, Input, LeakyReLU, ZeroPadding2D, Bat
 from tensorflow.keras.regularizers import l2
 from yolov3.utils import read_class_names
 from yolov3.configs import *
+import numpy as np
+import cv2 
+import copy
+
+#img2 = cv2.imread('navneet.jpeg')
+import numpy as np
+import cv2
+# from keypoint import keypoint
+# from detection import detection
 
 STRIDES         = np.array(YOLO_STRIDES)
 ANCHORS         = (np.array(YOLO_ANCHORS).T/STRIDES).T
 IOU_LOSS_THRESH = YOLO_IOU_LOSS_THRESH
+
+
+def preprocess_img():
+    img = cv2.imread('na1.jpeg')
+    img2 = cv2.imread('nv1.jpeg')
+    scale = 0.3
+    img = cv2.resize(img,(int(scale*img.shape[1]),int(scale*img.shape[0])))
+    img2 = cv2.resize(img2,(int(scale*img2.shape[1]),int(scale*img2.shape[0])))
+    original_image = np.concatenate((img, img2), axis=1)
+
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2LAB)
+    img2 = cv2.cvtColor(img2, cv2.COLOR_BGR2LAB)
+
+    imgC = cv2.split(img)
+    img2C = cv2.split(img2)
+
+    clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8,8))
+    cl1 = clahe.apply(imgC[0])
+    cl2 = clahe.apply(img2C[0])
+
+    imgC[0] = cl1
+    img2C[0] = cl2
+
+    img1 = cv2.merge(imgC)
+    img2 = cv2.merge(img2C)
+
+    img1 = cv2.cvtColor(img1, cv2.COLOR_LAB2BGR)
+    img2 = cv2.cvtColor(img2, cv2.COLOR_LAB2BGR)
+
+    clahe_image = np.concatenate((img1, img2), axis=1)
+    cv2.imshow('Original',original_image)
+    cv2.imshow('After Clahe',clahe_image)
+    cv2.imwrite('original.jpg', original_image)
+    cv2.imwrite('clahe.jpg', clahe_image)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+
+
+
+    box_body1, body_face1, img1_face = detection(img1)
+    box_body2, body_face2, img2_face = detection(img2)
+    face_detection = np.concatenate((img1_face, img2_face), axis=1)
+    cv2.imshow('Face Detection',face_detection)
+    cv2.imwrite('face_detection.jpg', face_detection)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+
+    keypoint(img1,img2,box_body1,box_body2, 0)
 
 class BatchNormalization(BatchNormalization):
     def call(self, x, training=False):
@@ -36,12 +93,14 @@ def convolutional(input_layer, filters_shape, downsample=False, activate=True, b
 
     return conv
 
+
 def residual_block(input_layer, input_channel, filter_num1, filter_num2):
-    short_cut = input_layer
+
+    initial_cut = input_layer
     conv = convolutional(input_layer, filters_shape=(1, 1, input_channel, filter_num1))
     conv = convolutional(conv       , filters_shape=(3, 3, filter_num1,   filter_num2))
 
-    residual_output = short_cut + conv
+    residual_output = initial_cut + conv
     return residual_output
 
 def upsample(input_layer):
@@ -80,9 +139,9 @@ def darknet53(input_data):
     return route_1, route_2, input_data
 
 def YOLOv3(input_layer, NUM_CLASS):
-    # After the input layer enters the Darknet-53 network, we get three branches
+    
     route_1, route_2, conv = darknet53(input_layer)
-    # See the orange module (DBL) in the figure above, a total of 5 Subconvolution operation
+   
     conv = convolutional(conv, (1, 1, 1024,  512))
     conv = convolutional(conv, (3, 3,  512, 1024))
     conv = convolutional(conv, (1, 1, 1024,  512))
@@ -90,12 +149,10 @@ def YOLOv3(input_layer, NUM_CLASS):
     conv = convolutional(conv, (1, 1, 1024,  512))
     conv_lobj_branch = convolutional(conv, (3, 3, 512, 1024))
     
-    # conv_lbbox is used to predict large-sized objects , Shape = [None, 13, 13, 255] 
     conv_lbbox = convolutional(conv_lobj_branch, (1, 1, 1024, 3*(NUM_CLASS + 5)), activate=False, bn=False)
 
     conv = convolutional(conv, (1, 1,  512,  256))
-    # upsample here uses the nearest neighbor interpolation method, which has the advantage that the
-    # upsampling process does not need to learn, thereby reducing the network parameter  
+   
     conv = upsample(conv)
 
     conv = tf.concat([conv, route_2], axis=-1)
@@ -124,6 +181,36 @@ def YOLOv3(input_layer, NUM_CLASS):
     conv_sbbox = convolutional(conv_sobj_branch, (1, 1, 256, 3*(NUM_CLASS +5)), activate=False, bn=False)
         
     return [conv_sbbox, conv_mbbox, conv_lbbox]
+
+def blendImg(img1,img2,c1,c2):
+    difference = float(c2)-float(c1)
+    step = 1.0 / difference    
+    row, col, _ = img1.shape
+    img3 = copy.deepcopy(img1)
+    for r in range(row):
+        i = 1
+        for c in range(col):
+            if (c > c2):
+                img3[r][c] = img2[r][c]
+            elif (c >= c1 and c<= c2):
+                i += 1
+                img3[r][c] = (1 - step * i) * img1[r][c] + (step * i) * img2[r][c]
+    return img3
+    
+def detection(img):
+    face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
+    gray_image = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    faces = face_cascade.detectMultiScale(gray_image, 1.3)
+    
+    (x,y,w,h) = faces[0]
+    # img = cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
+    img = copy.deepcopy(img)
+    img_body = cv2.rectangle(img,(x-w,y-h),(x+2*w,img.shape[0]),(255,0,0),2)
+    
+    # cv2.imshow('img',img)
+    # cv2.waitKey(0)    
+    (x,y,w,h) = faces[0]
+    return ((x-w,y,x+2*w,img.shape[0]),(x,y,x+w,y+h), img_body)
 
 def Create_Yolov3(input_size=416, channels=3, training=False, CLASSES=YOLO_COCO_CLASSES):
     NUM_CLASS = len(read_class_names(CLASSES))

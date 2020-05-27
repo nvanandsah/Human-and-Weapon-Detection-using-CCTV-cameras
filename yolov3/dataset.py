@@ -11,21 +11,6 @@ import tensorflow as tf
 
 class Dataset(object):
     # implement Dataset here
-    def __iter__(self):
-        return self
-
-    def load_annotations(self, dataset_type):
-
-        with open(self.annot_path, 'r') as f:
-            txt = f.readlines()
-            v = len(line.strip().split()[1:])
-            check = (v != 0)
-            ann = [line.strip() for line in txt if check==True]
-
-        np.random.shuffle(ann)
-        return ann
-
-
     def __init__(self, dataset_type):
 
         self.num_classes = len(self.classes)
@@ -74,19 +59,24 @@ class Dataset(object):
         self.batch_count = 0
 
 
-    
+    def load_annotations(self, dataset_type):
+
+        with open(self.annot_path, 'r') as f:
+            txt = f.readlines()
+            v = len(line.strip().split()[1:])
+            check = v != 0
+            ann = [line.strip() for line in txt if check==True]
+
+        np.random.shuffle(ann)
+        return ann
+
+
+    def __iter__(self):
+        return self
+
     def __next__(self):
         with tf.device('/cpu:0'):
             c = 4
-
-            size_x = self.batch_size
-            size_y = self.max_bbox_per_scale
-            z = self.train_output_sizes
-
-            batch_sbboxes = np.zeros((size_x, size_y, c), dtype=np.float32)
-            batch_mbboxes = np.zeros((size_x, size_y, c), dtype=np.float32)
-            batch_lbboxes = np.zeros((size_x, size_y, c), dtype=np.float32)
-
 
             self.train_input_size = random.choice([self.train_input_sizes])
 
@@ -94,21 +84,21 @@ class Dataset(object):
 
             batch_image = np.zeros((self.batch_size, self.train_input_size, self.train_input_size, 3), dtype=np.float32)
 
-            g = self.anchor_per_scale
+            batch_label_sbbox = np.zeros((self.batch_size, self.train_output_sizes[0], self.train_output_sizes[0],
+                                          self.anchor_per_scale, (c+1) + self.num_classes), dtype=np.float32)
+            batch_label_mbbox = np.zeros((self.batch_size, self.train_output_sizes[1], self.train_output_sizes[1],
+                                          self.anchor_per_scale, (c+1) + self.num_classes), dtype=np.float32)
+            batch_label_lbbox = np.zeros((self.batch_size, self.train_output_sizes[2], self.train_output_sizes[2],
+                                          self.anchor_per_scale, (c+1) + self.num_classes), dtype=np.float32)
 
-            n_cl = self.num_classes
+            batch_sbboxes = np.zeros((self.batch_size, self.max_bbox_per_scale, c), dtype=np.float32)
+            batch_mbboxes = np.zeros((self.batch_size, self.max_bbox_per_scale, c), dtype=np.float32)
+            batch_lbboxes = np.zeros((self.batch_size, self.max_bbox_per_scale, c), dtype=np.float32)
 
-            batch_label_sbbox = np.zeros((size_x, z[0], z[0],g , (c+1) + n_cl), dtype=np.float32)
-
-            batch_label_mbbox = np.zeros((size_x, z[1], z[1], g, (c+1) + n_cl), dtype=np.float32)
-
-            batch_label_lbbox = np.zeros((size_x, z[2], z[2], g, (c+1) + n_cl), dtype=np.float32)
-
-            
             num = 0
-            if self.batch_count < n_cl:
+            if self.batch_count < self.num_batchs:
 
-                while num < size_x:
+                while num < self.batch_size:
 
                     label_sbbox, label_mbbox, label_lbbox, sbboxes, mbboxes, lbboxes = self.preprocess_true_boxes(bboxes)
 
