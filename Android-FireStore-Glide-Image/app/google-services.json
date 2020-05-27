@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "542070783832",
+    "firebase_url": "https://fir-5f27b.firebaseio.com",
+    "project_id": "fir-5f27b",
+    "storage_bucket": "fir-5f27b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542070783832:android:65231a8b056c2b4cdeef2d",
+        "android_client_info": {
+          "package_name": "com.example.fireapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542070783832-12vd55dq2r4amsveien1210ob2q8tdn0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYts84s2VcA_vqFEIZOlULxG0p9U9pBgI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542070783832-12vd55dq2r4amsveien1210ob2q8tdn0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542070783832:android:58f0408a7fd78fd0deef2d",
+        "android_client_info": {
+          "package_name": "com.wellowise.lastmindeadline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542070783832-asfuk2g8tr1r23j9ml3uo10sbo7ndodt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wellowise.lastmindeadline",
+            "certificate_hash": "19813866fec3196f28bd237613e4e93dc0daf969"
+          }
+        },
+        {
+          "client_id": "542070783832-12vd55dq2r4amsveien1210ob2q8tdn0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYts84s2VcA_vqFEIZOlULxG0p9U9pBgI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542070783832-12vd55dq2r4amsveien1210ob2q8tdn0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
